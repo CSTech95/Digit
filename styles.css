@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+div#container{
+    display: grid;
+}
+
+header img{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    /* grid-template-rows: auto; */
+    align-content: center;
+    text-align: center;
+    padding-bottom: .3em;
+    border-bottom: 1px solid black;
+}
+
+nav .nav-items{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: end;
+    align-items: center;
+}
