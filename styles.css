@@ -69,6 +69,7 @@ main{
 main h2{
     text-align: center;
     padding: .5em 0;
+    border-top: 1px solid black;
 }
 
 main div.main-items{
@@ -97,9 +98,7 @@ footer div {
 /* Media Queries */
 /* Size for Tablets */
 @media only screen and (max-width: 1080px) {
-    body {
-        background-color: lightblue;
-    }
+    
     div#container{
         display: grid;
         padding: 0px;
@@ -109,9 +108,7 @@ footer div {
 
 /* Size for phones */
 @media only screen and (max-width: 450px) {
-    body {
-        background-color: lightgoldenrodyellow;
-    }
+    
     div.intro{
         display: grid;
         grid-template-columns: 1fr;
