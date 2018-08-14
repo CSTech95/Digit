@@ -112,4 +112,11 @@ footer div {
     body {
         background-color: lightgoldenrodyellow;
     }
+    div.intro{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    div.main-items{
+        text-align: center;
+    }
 }
